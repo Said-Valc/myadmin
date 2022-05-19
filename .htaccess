@@ -1,7 +1,6 @@
 AddDefaultCharset UTF-8
 
 RewriteEngine On
-RewriteCond %{HTTP_HOST} ^www.myrusakov.ru$ [NC]
 RewriteRule ^(.*)$ http://myadmin.loc/$1 [R=301,L]
 
 RewriteBase /
